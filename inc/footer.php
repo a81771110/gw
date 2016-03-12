@@ -4,8 +4,8 @@
             <div class="row" style="text-align:center;">
                 <div class="col-lg-3 col-sm-3">
                     <address>
-                        <p>±±¾©ÊÐº£µíÇø³¤´ºÇÅÂ·11ºÅÍòÁøÒÚ³ÇÖÐÐÄC2×ù1905A</p>
-                        <p>±¸°¸ºÅ£º¾©ICP±¸15026050ºÅ</p>
+                        <p>åŒ—äº¬å¸‚æµ·æ·€åŒºé•¿æ˜¥æ¡¥è·¯11å·ä¸‡æŸ³äº¿åŸŽä¸­å¿ƒC2åº§1905A</p>
+                        <p>å¤‡æ¡ˆå·ï¼šäº¬ICPå¤‡15026050å·</p>
                     </address>
                 </div>
             </div>

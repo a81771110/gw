@@ -2,15 +2,15 @@
 include_once("../inc/head.php");
 ?>
 <script type="text/javascript">
-document.title='ÁªÏµÎÒÃÇ';
-</script>        
-    
+document.title='è”ç³»æˆ‘ä»¬';
+</script>
+
     <!--breadcrumbs start-->
     <div class="breadcrumbs">
         <div class="container">
             <div class="row" >
                 <div class="col-lg-4 col-sm-4">
-                    <h1>ÁªÏµÎÒÃÇ</h1>
+                    <h1>è”ç³»æˆ‘ä»¬</h1>
                 </div>
             </div>
         </div>
@@ -21,8 +21,8 @@ document.title='ÁªÏµÎÒÃÇ';
          <div style="margin-bottom:50px;">
           <html xmlns="http://www.w3.org/1999/xhtml">
           <head>
-          
-          <!--ÒıÓÃ°Ù¶ÈµØÍ¼API-->
+
+          <!--å¼•ç”¨ç™¾åº¦åœ°å›¾API-->
           <style type="text/css">
               html,body{margin:0;padding:0;}
               .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
@@ -30,53 +30,53 @@ document.title='ÁªÏµÎÒÃÇ';
           </style>
           <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
           </head>
-          
+
           <body>
-            <!--°Ù¶ÈµØÍ¼ÈİÆ÷-->
+            <!--ç™¾åº¦åœ°å›¾å®¹å™¨-->
             <div style="width:100%;height:300px;border:#ccc solid 1px;" id="dituContent"></div>
           </body>
           <script type="text/javascript">
-              //´´½¨ºÍ³õÊ¼»¯µØÍ¼º¯Êı£º
+              //åˆ›å»ºå’Œåˆå§‹åŒ–åœ°å›¾å‡½æ•°ï¼š
               function initMap(){
-                  createMap();//´´½¨µØÍ¼
-                  setMapEvent();//ÉèÖÃµØÍ¼ÊÂ¼ş
-                  addMapControl();//ÏòµØÍ¼Ìí¼Ó¿Ø¼ş
-                  addMarker();//ÏòµØÍ¼ÖĞÌí¼Ómarker
+                  createMap();//åˆ›å»ºåœ°å›¾
+                  setMapEvent();//è®¾ç½®åœ°å›¾äº‹ä»¶
+                  addMapControl();//å‘åœ°å›¾æ·»åŠ æ§ä»¶
+                  addMarker();//å‘åœ°å›¾ä¸­æ·»åŠ marker
               }
-              
-              //´´½¨µØÍ¼º¯Êı£º
+
+              //åˆ›å»ºåœ°å›¾å‡½æ•°ï¼š
               function createMap(){
-                  var map = new BMap.Map("dituContent");//ÔÚ°Ù¶ÈµØÍ¼ÈİÆ÷ÖĞ´´½¨Ò»¸öµØÍ¼
-                  var point = new BMap.Point(116.30934,39.96571);//¶¨ÒåÒ»¸öÖĞĞÄµã×ø±ê
-                  map.centerAndZoom(point,18);//Éè¶¨µØÍ¼µÄÖĞĞÄµãºÍ×ø±ê²¢½«µØÍ¼ÏÔÊ¾ÔÚµØÍ¼ÈİÆ÷ÖĞ
-                  window.map = map;//½«map±äÁ¿´æ´¢ÔÚÈ«¾Ö
+                  var map = new BMap.Map("dituContent");//åœ¨ç™¾åº¦åœ°å›¾å®¹å™¨ä¸­åˆ›å»ºä¸€ä¸ªåœ°å›¾
+                  var point = new BMap.Point(116.30934,39.96571);//å®šä¹‰ä¸€ä¸ªä¸­å¿ƒç‚¹åæ ‡
+                  map.centerAndZoom(point,18);//è®¾å®šåœ°å›¾çš„ä¸­å¿ƒç‚¹å’Œåæ ‡å¹¶å°†åœ°å›¾æ˜¾ç¤ºåœ¨åœ°å›¾å®¹å™¨ä¸­
+                  window.map = map;//å°†mapå˜é‡å­˜å‚¨åœ¨å…¨å±€
               }
-              
-              //µØÍ¼ÊÂ¼şÉèÖÃº¯Êı£º
+
+              //åœ°å›¾äº‹ä»¶è®¾ç½®å‡½æ•°ï¼š
               function setMapEvent(){
-                  map.enableDragging();//ÆôÓÃµØÍ¼ÍÏ×§ÊÂ¼ş£¬Ä¬ÈÏÆôÓÃ(¿É²»Ğ´)
-                  map.enableScrollWheelZoom();//ÆôÓÃµØÍ¼¹öÂÖ·Å´óËõĞ¡
-                  map.enableDoubleClickZoom();//ÆôÓÃÊó±êË«»÷·Å´ó£¬Ä¬ÈÏÆôÓÃ(¿É²»Ğ´)
-                  map.enableKeyboard();//ÆôÓÃ¼üÅÌÉÏÏÂ×óÓÒ¼üÒÆ¶¯µØÍ¼
+                  map.enableDragging();//å¯ç”¨åœ°å›¾æ‹–æ‹½äº‹ä»¶ï¼Œé»˜è®¤å¯ç”¨(å¯ä¸å†™)
+                  map.enableScrollWheelZoom();//å¯ç”¨åœ°å›¾æ»šè½®æ”¾å¤§ç¼©å°
+                  map.enableDoubleClickZoom();//å¯ç”¨é¼ æ ‡åŒå‡»æ”¾å¤§ï¼Œé»˜è®¤å¯ç”¨(å¯ä¸å†™)
+                  map.enableKeyboard();//å¯ç”¨é”®ç›˜ä¸Šä¸‹å·¦å³é”®ç§»åŠ¨åœ°å›¾
               }
-              
-              //µØÍ¼¿Ø¼şÌí¼Óº¯Êı£º
+
+              //åœ°å›¾æ§ä»¶æ·»åŠ å‡½æ•°ï¼š
               function addMapControl(){
-                  //ÏòµØÍ¼ÖĞÌí¼ÓËõ·Å¿Ø¼ş
+                  //å‘åœ°å›¾ä¸­æ·»åŠ ç¼©æ”¾æ§ä»¶
               var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
               map.addControl(ctrl_nav);
-                  //ÏòµØÍ¼ÖĞÌí¼ÓËõÂÔÍ¼¿Ø¼ş
+                  //å‘åœ°å›¾ä¸­æ·»åŠ ç¼©ç•¥å›¾æ§ä»¶
               var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
               map.addControl(ctrl_ove);
-                  //ÏòµØÍ¼ÖĞÌí¼Ó±ÈÀı³ß¿Ø¼ş
+                  //å‘åœ°å›¾ä¸­æ·»åŠ æ¯”ä¾‹å°ºæ§ä»¶
               var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
               map.addControl(ctrl_sca);
               }
-              
-              //±ê×¢µãÊı×é
-              var markerArr = [{title:"±±¾©¸ßËÙ²¨Èí¼şÓĞÏŞ¹«Ë¾",content:"ÎÒµÄ±¸×¢",point:"116.308195|39.966581",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+
+              //æ ‡æ³¨ç‚¹æ•°ç»„
+              var markerArr = [{title:"åŒ—äº¬é«˜é€Ÿæ³¢è½¯ä»¶æœ‰é™å…¬å¸",content:"æˆ‘çš„å¤‡æ³¨",point:"116.308195|39.966581",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
                    ];
-              //´´½¨marker
+              //åˆ›å»ºmarker
               function addMarker(){
                   for(var i=0;i<markerArr.length;i++){
                       var json = markerArr[i];
@@ -94,7 +94,7 @@ document.title='ÁªÏµÎÒÃÇ';
                                   color:"#333",
                                   cursor:"pointer"
                       });
-                      
+
                       (function(){
                           var index = i;
                           var _iw = createInfoWindow(i);
@@ -118,38 +118,38 @@ document.title='ÁªÏµÎÒÃÇ';
                       })()
                   }
               }
-              //´´½¨InfoWindow
+              //åˆ›å»ºInfoWindow
               function createInfoWindow(i){
                   var json = markerArr[i];
                   var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
                   return iw;
               }
-              //´´½¨Ò»¸öIcon
+              //åˆ›å»ºä¸€ä¸ªIcon
               function createIcon(json){
                   var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
                   return icon;
               }
-              
-              initMap();//´´½¨ºÍ³õÊ¼»¯µØÍ¼
+
+              initMap();//åˆ›å»ºå’Œåˆå§‹åŒ–åœ°å›¾
           </script>
           </html>
-         </div> 
+         </div>
         <div class="row">
             <div class="col-lg-5 col-sm-5 address" style="margin-left:50px; margin-bottom:20px;">
-                <h4 style="font-weight:bold;font-family: "microsoft yahei";font-size:16px;font-size:16px;color:#434343">ÁªÏµÎÒÃÇ</h4>
-                <p>¹«Ë¾µØÖ·£º±±¾©ÊĞº£µíÇø³¤´ºÇÅÂ·11ºÅÍòÁøÒÚ³ÇÖĞĞÄC2×ù1905A</p>
-                <p>ÓÊÕş±àÂë£º100089</p>
-             
-                <p>µç»°£º010-59421190</p>
-                <p>ÓÊÏä:zhangming@gaosubo.com</p>
+                <h4 style="font-weight:bold;font-family: "microsoft yahei";font-size:16px;font-size:16px;color:#434343">è”ç³»æˆ‘ä»¬</h4>
+                <p>å…¬å¸åœ°å€ï¼šåŒ—äº¬å¸‚æµ·æ·€åŒºé•¿æ˜¥æ¡¥è·¯11å·ä¸‡æŸ³äº¿åŸä¸­å¿ƒC2åº§1905A</p>
+                <p>é‚®æ”¿ç¼–ç ï¼š100089</p>
+
+                <p>ç”µè¯ï¼š010-59421190</p>
+                <p>é‚®ç®±:zhangming@gaosubo.com</p>
             </div>
-                
+
 			<div>
-			<h4 style="font-weight:bold;font-family: "microsoft yahei";font-size:16px;color:#434343">ÒøĞĞÕËºÅ</h4>
-			    <p style="margin-top:19px;">»§Ãû£º ±±¾©¸ßËÙ²¨Èí¼şÓĞÏŞ¹«Ë¾</p> 
-                  <p> ÕËºÅ£º 110061118018010046467 </p>
-                   <p> ¿ª»§ĞĞ£º ½»Í¨ÒøĞĞ¹É·İÓĞÏŞ¹«Ë¾±±¾©ÍòÁøÖ§ĞĞ </p>
-                     <p> ¿ª»§ĞĞ´úÂë£º301100000816</p>
+			<h4 style="font-weight:bold;font-family: "microsoft yahei";font-size:16px;color:#434343">é“¶è¡Œè´¦å·</h4>
+			    <p style="margin-top:19px;">æˆ·åï¼š åŒ—äº¬é«˜é€Ÿæ³¢è½¯ä»¶æœ‰é™å…¬å¸</p>
+                  <p> è´¦å·ï¼š 110061118018010046467 </p>
+                   <p> å¼€æˆ·è¡Œï¼š äº¤é€šé“¶è¡Œè‚¡ä»½æœ‰é™å…¬å¸åŒ—äº¬ä¸‡æŸ³æ”¯è¡Œ </p>
+                     <p> å¼€æˆ·è¡Œä»£ç ï¼š301100000816</p>
 			</div>
             </div>
             </div>

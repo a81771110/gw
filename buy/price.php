@@ -5,121 +5,121 @@ include_once("../inc/head.php");
 <html>
 <head>
 <script type="text/javascript">
-document.title='¸ßËÙ²¨ÒÆ¶¯ERP¼Û¸ñ±í';
-</script> 
+document.title='é«˜é€Ÿæ³¢ç§»åŠ¨ERPä»·æ ¼è¡¨';
+</script>
 <style>
 .table thead tr th,.table td,.table tbody th{
 	text-align:center;
-	vertical-align:middle;}	
+	vertical-align:middle;}
 .table th{
 	font-size:1.3em;}
 .font{
 	font-size:1.5em;
-	}	
+	}
 </style>
 </head>
 <body>
 <div class="container-fluid">
 <table class="table table-bordered table-striped">
-   <caption class="font">VIP·þÎñ¼Û¸ñ±í</caption>
+   <caption class="font">VIPæœåŠ¡ä»·æ ¼è¡¨</caption>
    <thead>
       <tr>
-         <th>°æ±¾</th>
-         <th>ÔÆÆ½Ì¨ÀàÐÍ</th>
-         <th style="width:60px">ÓÃ»§Êý</th>
-         <th>ÉÏ´«ÎÄ¼þÁ÷Á¿ÏÞÖÆ</th>
-         <th>µ¥¸öÎÄ¼þÉÏ´«ÏÞÖÆ</th>
-		 <th>Êý¾Ý¿â¿Õ¼äÏÞÖÆ</th>
-         <th>Ó¦ÓÃ</th>
-         <th>¿ª·¢Æ½Ì¨</th>
-         <th style="width:60px">·þÎñÆ÷¼¯Èº</th>
-         <th>¼Û¸ñ</th>
-         
-            
+         <th>ç‰ˆæœ¬</th>
+         <th>äº‘å¹³å°ç±»åž‹</th>
+         <th style="width:60px">ç”¨æˆ·æ•°</th>
+         <th>ä¸Šä¼ æ–‡ä»¶æµé‡é™åˆ¶</th>
+         <th>å•ä¸ªæ–‡ä»¶ä¸Šä¼ é™åˆ¶</th>
+		 <th>æ•°æ®åº“ç©ºé—´é™åˆ¶</th>
+         <th>åº”ç”¨</th>
+         <th>å¼€å‘å¹³å°</th>
+         <th style="width:60px">æœåŠ¡å™¨é›†ç¾¤</th>
+         <th>ä»·æ ¼</th>
+
+
       </tr>
    </thead>
    <tbody>
       <tr>
-         <th><span>Ð¡µºÌåÑé°æ</span></th>
-         <td >Saas¹«ÓÐÔÆ</td>
+         <th><span>å°å²›ä½“éªŒç‰ˆ</span></th>
+         <td >Saaså…¬æœ‰äº‘</td>
          <td >10</td>
          <td>10M</td>
          <td >1M</td>
 		 <td>10M</td>
-         <td>Ó¦ÓÃÉÌµê£¬²»ÄÜÏÂÔØÓ¦ÓÃ£¬ÄÚÖÃ20¸ö»ù´¡Ó¦ÓÃ</td>
-         <td>²»ÄÜ¿ª·¢Ó¦ÓÃ</td>
-         <td>¹²Ïí</td>
-         <td>Ãâ·Ñ</td>
-         
-         
+         <td>åº”ç”¨å•†åº—ï¼Œä¸èƒ½ä¸‹è½½åº”ç”¨ï¼Œå†…ç½®20ä¸ªåŸºç¡€åº”ç”¨</td>
+         <td>ä¸èƒ½å¼€å‘åº”ç”¨</td>
+         <td>å…±äº«</td>
+         <td>å…è´¹</td>
+
+
       </tr>
       <tr>
-         <th><span>Â½µØVIP°æ</span></th>
-         <td>Saas¹«ÓÐÔÆ</td>
+         <th><span>é™†åœ°VIPç‰ˆ</span></th>
+         <td>Saaså…¬æœ‰äº‘</td>
          <td>100</td>
          <td>1000M</td>
          <td>5M</td>
 		 <td>100M</td>
-         <td>Ó¦ÓÃÉÌµê£¬¿ÉÏÂÔØµÄÃâ·ÑÓ¦ÓÃ>100¸ö</td>
-         <td>¿ª·¢10¸öÆóÒµÄÚÓ¦ÓÃ</td>
-         <td>¹²Ïí</td>
-         <td>Ãâ·Ñ£¬ÐèÌá½»ÓªÒµÖ´ÕÕºÍÆóÒµÏêÏ¸ÁªÏµÐÅÏ¢</td>
-         
+         <td>åº”ç”¨å•†åº—ï¼Œå¯ä¸‹è½½çš„å…è´¹åº”ç”¨>100ä¸ª</td>
+         <td>å¼€å‘10ä¸ªä¼ä¸šå†…åº”ç”¨</td>
+         <td>å…±äº«</td>
+         <td>å…è´¹ï¼Œéœ€æäº¤è¥ä¸šæ‰§ç…§å’Œä¼ä¸šè¯¦ç»†è”ç³»ä¿¡æ¯</td>
+
       </tr>
       <tr>
-         <th><span>ÔÂÇòVIP°æ</span></th>
-         <td>Saas¹«ÓÐÔÆ</td>
+         <th><span>æœˆçƒVIPç‰ˆ</span></th>
+         <td>Saaså…¬æœ‰äº‘</td>
          <td>200</td>
          <td>200G</td>
          <td>50M</td>
 		 <td>200M</td>
-         <td>Ó¦ÓÃÉÌµê£¬¼Û¸ñ£¼500ÔªµÄÊÕ·ÑÓ¦ÓÃÃâ·ÑÏÂ</td>
-         <td>¿ª·¢100¸öÆóÒµÄÚÓ¦ÓÃ</td>
-         <td>¹²Ïí</td>
-         <td>2Íò £¬Ò»´ÎÍ¶Èë£¬ÖÕÉíÏíÓÐ</td>
-       
+         <td>åº”ç”¨å•†åº—ï¼Œä»·æ ¼ï¼œ500å…ƒçš„æ”¶è´¹åº”ç”¨å…è´¹ä¸‹</td>
+         <td>å¼€å‘100ä¸ªä¼ä¸šå†…åº”ç”¨</td>
+         <td>å…±äº«</td>
+         <td>2ä¸‡ ï¼Œä¸€æ¬¡æŠ•å…¥ï¼Œç»ˆèº«äº«æœ‰</td>
+
       </tr>
       <tr>
-        <th><span>µØÇòVIP°æ</span></th>
-         <td>aas¹«ÓÐÔÆ</td>
-         <td>²»ÏÞ</td>
+        <th><span>åœ°çƒVIPç‰ˆ</span></th>
+         <td>aaså…¬æœ‰äº‘</td>
+         <td>ä¸é™</td>
          <td>1000GB</td>
          <td>100M</td>
 		  <td>500M</td>
-         <td>Ó¦ÓÃÉÌµê£¬¼Û¸ñ£¼5000ÔªµÄÊÕ·ÑÓ¦ÓÃÃâ·ÑÏÂ</td>
-         <td>²»ÏÞÆóÒµÄÚÓ¦ÓÃ¿ª·¢ÊýÁ¿</td>
-         <td>¹²Ïí</td>
-         <td>5Íò £¬Ò»´ÎÍ¶Èë£¬ÖÕÉíÏíÓÐ</td>
-        
+         <td>åº”ç”¨å•†åº—ï¼Œä»·æ ¼ï¼œ5000å…ƒçš„æ”¶è´¹åº”ç”¨å…è´¹ä¸‹</td>
+         <td>ä¸é™ä¼ä¸šå†…åº”ç”¨å¼€å‘æ•°é‡</td>
+         <td>å…±äº«</td>
+         <td>5ä¸‡ ï¼Œä¸€æ¬¡æŠ•å…¥ï¼Œç»ˆèº«äº«æœ‰</td>
+
       </tr>
       <tr>
-        <th><span >Ì«ÑôÏµVIP°æ</span></th>
-         <td>SaasÑÇË½ÓÐÔÆ</td>
-         <td>²»ÏÞ</td>
-         <td>²»ÏÞ</td>
+        <th><span >å¤ªé˜³ç³»VIPç‰ˆ</span></th>
+         <td>Saasäºšç§æœ‰äº‘</td>
+         <td>ä¸é™</td>
+         <td>ä¸é™</td>
          <td>200M</td>
-		  <td>²»ÏÞ</td>
-         <td>Ó¦ÓÃÉÌµê£¬ËùÓÐÊÕ·ÑÓ¦ÓÃ¾ù¿ÉÃâ·ÑÏÂ</td>
-         <td>²»ÏÞÆóÒµÄÚÓ¦ÓÃ¿ª·¢ÊýÁ¿</td>
-         <td>¶ÀÏí</td>
-         <td>ÊÊÓÃÓÚ1000-10000ÓÃ»§£¬Ã¿ÓÃ»§Ã¿Äê100Ôª¡£</td>
-        
-         
+		  <td>ä¸é™</td>
+         <td>åº”ç”¨å•†åº—ï¼Œæ‰€æœ‰æ”¶è´¹åº”ç”¨å‡å¯å…è´¹ä¸‹</td>
+         <td>ä¸é™ä¼ä¸šå†…åº”ç”¨å¼€å‘æ•°é‡</td>
+         <td>ç‹¬äº«</td>
+         <td>é€‚ç”¨äºŽ1000-10000ç”¨æˆ·ï¼Œæ¯ç”¨æˆ·æ¯å¹´100å…ƒã€‚</td>
+
+
       </tr>
       <tr>
-        <th><span >ÒøºÓÏµVIP°æ</span></th>
-         <td>Private Clouds Ë½ÓÐÔÆ²¿Êð</td>
-         <td >²»ÏÞ</td>
-         <td >²»ÏÞ</td>
-         <td >²»ÏÞ</td>
-		 <td >²»ÏÞ</td>
-         <td >¿É¶¨ÖÆµÄÓ¦ÓÃÉÌµê</td>
-         <td>²»ÏÞÆóÒµÄÚÓ¦ÓÃ¿ª·¢ÊýÁ¿£¬º¬²»ÏÞÁ¿¿ª·¢ÕßÕËºÅ</td>
-         <td>¶ÀÏí</td>
-         <td>ÊÊÓÃÓÚ10000ÓÃ»§ÒÔÉÏ£¬Ò»´ÎÐÔÊÕ·ÑÃ¿ÓÃ»§200Ôª£¬Äê¶È²úÆ· Éý¼¶·Ñ30%¡£</td>      
+        <th><span >é“¶æ²³ç³»VIPç‰ˆ</span></th>
+         <td>Private Clouds ç§æœ‰äº‘éƒ¨ç½²</td>
+         <td >ä¸é™</td>
+         <td >ä¸é™</td>
+         <td >ä¸é™</td>
+		 <td >ä¸é™</td>
+         <td >å¯å®šåˆ¶çš„åº”ç”¨å•†åº—</td>
+         <td>ä¸é™ä¼ä¸šå†…åº”ç”¨å¼€å‘æ•°é‡ï¼Œå«ä¸é™é‡å¼€å‘è€…è´¦å·</td>
+         <td>ç‹¬äº«</td>
+         <td>é€‚ç”¨äºŽ10000ç”¨æˆ·ä»¥ä¸Šï¼Œä¸€æ¬¡æ€§æ”¶è´¹æ¯ç”¨æˆ·200å…ƒï¼Œå¹´åº¦äº§å“ å‡çº§è´¹30%ã€‚</td>
       </tr>
 	  <tr>
-		<th colspan=10 style="text-align:center;"><a href="http://www.gsubo.com/app/app_store/p/index.php?to=buy">¹ºÂòVIP·þÎñ</a></th>
+		<th colspan=10 style="text-align:center;"><a href="http://www.gsubo.com/app/app_store/p/index.php?to=buy">è´­ä¹°VIPæœåŠ¡</a></th>
 	  </tr>
    </tbody>
 </table>

@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Mosaddek">
-    <meta name="keyword" content="ERP，OA，APP">
+    <meta name="keyword" content="ERP锛孫A锛孉PP">
     <link rel="shortcut icon" href="../img/right.png">
 
-    <title>高速波移动ERP</title>
+    <title>楂橀�熸尝绉诲姩ERP</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -48,14 +48,14 @@
                     <a class="navbar-brand" href="../index.php"><img src="../img/logo.png"></a>
                 </div>
                    <div class="navbar-collapse collapse " id="nav_in">
-                   
-        
+
+
      <ul class="nav navbar-nav">
-                        <li><a href="../index.php">首页</a></li>
-                        <li><a href="../company/">公司介绍</a></li>
-                        <li><a href="../products/">产品</a></li>
-                        <li><a href="../services/">服务</a></li> 
-                        <li><a href="../contact/">联系我们</a></li>
+                        <li><a href="../index.php">棣栭〉</a></li>
+                        <li><a href="../company/">鍏徃浠嬬粛</a></li>
+                        <li><a href="../products/">浜у搧</a></li>
+                        <li><a href="../services/">鏈嶅姟</a></li>
+                        <li><a href="../contact/">鑱旂郴鎴戜滑</a></li>
                         <li><input type="text" placeholder=" Search" class="form-control search"></li>
                     </ul>
                 </div>

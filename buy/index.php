@@ -9,8 +9,8 @@ header("Location: ../services/");
 
 ?>
 <script type="text/javascript">
-document.title='¹ºÂò';
-</script>  
+document.title='è´­ä¹°';
+</script>
     <!--header end-->
     <!--breadcrumbs start-->
     <div class="breadcrumbs">
@@ -102,7 +102,7 @@ document.title='¹ºÂò';
             <div class="col-lg-3 col-sm-3">
                 <div class="pricing-table">
                     <div class="pricing-head">
-                        <h1>¹ºÂò</h1>
+                        <h1>è´­ä¹°</h1>
                         <h2>
                             <span class="note">$</span>1500 </h2>
                     </div>

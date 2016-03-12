@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Mosaddek">
-    <meta name="keyword" content="ERP��OA��APP">
+    <meta name="keyword" content="ERP，OA，APP">
     <link rel="shortcut icon" href="../img/right.png">
 <link href="/favicon.ico" rel="shortcut icon">
 <link href="/favicon.ico" rel="bookmark">
-    <title>���ٲ����ư칫</title>
+    <title>高速波・云办公</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -72,14 +72,14 @@
                     <a class="navbar-brand" href="./index.php"><img src="img/logo.png"></a>
                 </div>
                 <div class="navbar-collapse collapse"  id="nav_in">
-                   
-        
+
+
      <ul class="nav navbar-nav ">
-                        <li><a class="active" href="./" >��ҳ</a></li>
-                        <li><a href="./company/">��˾����</a></li>
-                        <li><a href="./products/">��Ʒ</a></li>
-                        <li><a href="./services/">����</a></li>
-                        <li><a href="./contact/">��ϵ����</a></li>
+                        <li><a class="active" href="./" >首页</a></li>
+                        <li><a href="./company/">公司介绍</a></li>
+                        <li><a href="./products/">产品</a></li>
+                        <li><a href="./services/">服务</a></li>
+                        <li><a href="./contact/">联系我们</a></li>
                         <li><input type="text" placeholder=" Search" class="form-control search"></li>
                     </ul>
                 </div>
@@ -132,7 +132,7 @@
                           data-speed="400"
                           data-start="3500"
                           data-easing="easeOutExpo">
-                         ���¾��� �캽δ��<br />�ø��ٲ�E+,����������
+                         创新精彩 领航未来<br />让高速波E+,与您做朋友
                      </div>
                  </li>
                  <!-- 2nd slide  -->
@@ -145,7 +145,7 @@
                           data-speed="400"
                           data-start="1500"
                           data-easing="easeOutExpo">
-                        ������ʵ �����߿�
+                        创新务实 普享高科
                      </div>
                      <div class="caption lft start"
                           data-x="640"
@@ -155,7 +155,7 @@
                           data-easing="easeOutBack"  >
                          <img src="img/banner/man.png" alt="man">
                      </div>
-                     
+
                  </li>
              </ul>
             <div class="tp-bannertimer tp-top"></div>
@@ -168,33 +168,33 @@
         <div class="row">
             <!--feature start-->
             <div class="text-center feature-head">
-                <h1>��Ʒ����</h1>
+                <h1>产品介绍</h1>
             </div>
             <div class="col-lg-4 col-sm-4">
                 <section>
                     <div class="f-box">
                         <i><img src="img/oa.png"></i>
-                        <h2>OA�칫</h2>
+                        <h2>OA办公</h2>
                     </div>
-                    <p class="f-text">����߹���Ч�ʵĻ���֮�ϣ�����Эͬ�칫������ǿ�����ߵ�һ���ԣ�����ʵ����߾���Ч�ܵ�Ŀ�ġ�</p>
+                    <p class="f-text">在提高工作效率的基础之上，增加协同办公能力，强化决策的一致性，最终实现提高决策效能的目的。</p>
                 </section>
             </div>
             <div class="col-lg-4 col-sm-4">
                 <section>
                     <div class="f-box" style="background-color:#f77b6f; color:#fff;">
                         <i><img src="img/erp.png"></i>
-                        <h2>ERP����</h2>
+                        <h2>ERP管理</h2>
                     </div>
-                    <p class="f-text">��ݵĶ���ҵ���е���������������������Դ�����ۺϹ�������ǿ�����ż�Ĺ�ͨЭ���������ҵ�ĺ��ľ�������Ϊ������ҵʵ��Ч����󻯡�</p>
+                    <p class="f-text">便捷的对企业现有的人力、物力、财力等资源进行综合管理，增强各部门间的沟通协调，提高企业的核心竞争力，为您的企业实现效益最大化。</p>
                 </section>
             </div>
             <div class="col-lg-4 col-sm-4">
                 <section>
                     <div class="f-box">
                         <i><img src="img/shop.png"></i>
-                        <h2>Ӧ���̵�</h2>
+                        <h2>应用商店</h2>
                     </div>
-                    <p class="f-text">�������ӵ���ģ�鹦�ܣ����ӱ�ݵ�ʹ������ҵ��߹���Ч�ʣ����������Լ�����Լ���Ҫ�Ĺ��ܣ������趨���������Ĺ�˾ʹ�ã����߿��ţ��շѣ���������ҵ�û���</p>
+                    <p class="f-text">不断增加的新模块功能，更加便捷的使您的企业提高工作效率，您还可以自己设计自己需要的功能，并可设定仅限于您的公司使用，或者开放（收费）给其他企业用户。</p>
                 </section>
             </div>
             <!--feature end-->
@@ -205,8 +205,8 @@
     <!--property start-->
     <div class="property gray-bg">
         <div class="container text-center feature-head">
-        <h1>��Ʒ����</h1>
-       
+        <h1>产品亮点</h1>
+
         </div>
         <div class="container">
             <div class="row">
@@ -214,24 +214,24 @@
                     <img src="img/property-img.png" alt="">
                 </div>
                 <div class="col-lg-6 col-sm-6">
-                    <h2>˫�ټƻ���100�û�+100Ӧ�ã���ȫ��ѡ�</h2>
-                    <h2>Ӧ���̵꣺��ʷ������ǿ�����ҵ��Ӧ���̵ꡣ</h2>
-                    <h2>�������û��������ܿ������ߣ�</h2>
+                    <h2>双百计划：100用户+100应用，完全免费。</h2>
+                    <h2>应用商店：有史以来最强大的企业云应用商店。</h2>
+                    <h2>向所有用户开放智能开发工具：</h2>
                     <br />
-                    <p>��1��gtools��10������ʽ����С���ƶ���ҵӦ�á�</p>
-                    <p>��2��gbuider�����ñ�̣���ͨ��Ҳ�ܿ����߼���ҵӦ�á�</p>
-                    <p>��3��gflow��������APP������һ�¾Ϳ��Գ�����</p>
-                    <p>��4��gcode������ȫ�����ƶ�Ӧ�á�</p>
+                    <p>（1）gtools：10分钟向导式开发小型移动企业应用。</p>
+                    <p>（2）gbuider：不用编程，普通人也能开发高级企业应用。</p>
+                    <p>（3）gflow：流程型APP，配置一下就可以出来。</p>
+                    <p>（4）gcode：开发全能型移动应用。</p>
                 </div>
             </div>
         </div>
     </div>
-    
+
      <!--parallax start-->
      <section class="parallax1">
          <div class="container">
              <div class="row">
-                 <h1>�Žụ�������ù�ͨ����Դ������������Ӯ</h1>
+                 <h1>团结互助、良好沟通、资源共享、合作共赢</h1>
              </div>
          </div>
      </section>

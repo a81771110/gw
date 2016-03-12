@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/buy/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buy/price.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/contact/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inc/footer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inc/head.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/products/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/agreement.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/agreement1.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/index.php" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -1,121 +1,121 @@
-<?php
-include_once("../inc/head.php");
-?>
-<script type="text/javascript">
-document.title='∑˛ŒÒ';
-</script>        
-    <!--breadcrumbs start-->
-    <div class="breadcrumbs">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-4">
-                    <h1>∑˛ŒÒ</h1>
-                </div> 
-            </div>
-        </div>
-    </div>
-    <!--breadcrumbs end-->
+\<?php
+ include_once("../inc/head.php");
+ ?>
+ <script type="text/javascript">
+ document.title='ÊúçÂä°';
+ </script>
+     <!--breadcrumbs start-->
+     <div class="breadcrumbs">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-4 col-sm-4">
+                     <h1>ÊúçÂä°</h1>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!--breadcrumbs end-->
 
-    <!--container start-->
-    <div class="container">
-        <div class="row mbot50">
-            <div class="col-lg-7 about">
-                <h3>∑˛ŒÒµÁª∞£∫010-59420768</h3>
-                <p>∑˛ŒÒ ±∂Œ£∫÷‹“ª÷¡÷‹ŒÂ 9:40-12:00&nbsp;13:30-18:20 (5°¡7–° ±)</p>
-                <p>∑˛ŒÒ” œ‰£∫gr@gaosubo.com</p>
-                <p>∑˛ŒÒÀµ√˜£∫ÀÊ ±∑¥¿°≤˙∆∑Œ Ã‚£¨‘⁄œﬂ∏˙◊Ÿ¥¶¿ÌΩ¯∂»£¨º∞ ± ’¬ºƒ˙µƒ–Ë«Û∫ÕΩ®“È°£</p>
-            </div>
-            <div class="col-lg-5">
-                <div class="span5 about-carousel">
-                    <div id="myCarousel" class="carousel slide">
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="active item">
-                                <img src="../img/ser.jpg" alt="">
-                               
-                            </div>
-                        </div>
-                        <!-- Carousel nav -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     <!--container start-->
+     <div class="container">
+         <div class="row mbot50">
+             <div class="col-lg-7 about">
+                 <h3>ÊúçÂä°ÁîµËØùÔºö010-59420768</h3>
+                 <p>ÊúçÂä°Êó∂ÊÆµÔºöÂë®‰∏ÄËá≥Âë®‰∫î 9:40-12:00&nbsp;13:30-18:20 (5√ó7Â∞èÊó∂)</p>
+                 <p>ÊúçÂä°ÈÇÆÁÆ±Ôºögr@gaosubo.com</p>
+                 <p>ÊúçÂä°ËØ¥ÊòéÔºöÈöèÊó∂ÂèçÈ¶à‰∫ßÂìÅÈóÆÈ¢òÔºåÂú®Á∫øË∑üË∏™Â§ÑÁêÜËøõÂ∫¶ÔºåÂèäÊó∂Êî∂ÂΩïÊÇ®ÁöÑÈúÄÊ±ÇÂíåÂª∫ËÆÆ„ÄÇ</p>
+             </div>
+             <div class="col-lg-5">
+                 <div class="span5 about-carousel">
+                     <div id="myCarousel" class="carousel slide">
+                         <!-- Carousel items -->
+                         <div class="carousel-inner">
+                             <div class="active item">
+                                 <img src="../img/ser.jpg" alt="">
 
-     <div class="gray-box mbot50">
-        <div class="container">
-            <div class="row">
-                <div class="row">
-                    <div class="feature-head">
-                        <h1 style="padding-left:15px; font-size:24px;"> ∑˛ŒÒ∑∂Œß </h1>
-                           </div>
-                    <div class="services">
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="icon-wrap ico-bg_01 round">
-                                <i></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">ºº ı÷ß≥÷</h3>
-                                <p>∏ﬂ»ª &nbsp;gr@gaosubo.com</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="icon-wrap ico-bg_02 round">
-                                <i class="icon-2"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">≤˙∆∑π∫¬Ú </h3>
-                                <p>’≈√˜&nbsp;zhangming@gaosubo.com</p> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services">
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="icon-wrap ico-bg_03 round">
-                                <i class="icon-3"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">IOSΩ‚æˆ∑Ω∞∏</h3>
-                                <p>¿…’º«ø &nbsp;lzq@gaosubo.com</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="icon-wrap ico-bg_04 round">
-                                <i class="icon-4"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">∞≤◊øΩ‚æˆ∑Ω∞∏</h3>
-                                <p>¬ÌÃÏ–– &nbsp;mth@gaosubo.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services">
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="icon-wrap ico-bg_05 round">
-                                <i class=" icon-5"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">∆ΩÃ®Ω‚æˆ∑Ω∞∏</h3>
-                                <p>¡ıΩ®≤  &nbsp;ljc@gaosubo.com</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="icon-wrap ico-bg_06 round">
-                                <i class=" icon-6"></i>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Õ∂Àﬂ”ÎΩ®“È</h3>
-                                <p>’≈√˜ &nbsp;zhangming@gaosubo.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                             </div>
+                         </div>
+                         <!-- Carousel nav -->
+                     </div>
+                 </div>
+             </div>
+         </div>
      </div>
 
+      <div class="gray-box mbot50">
+         <div class="container">
+             <div class="row">
+                 <div class="row">
+                     <div class="feature-head">
+                         <h1 style="padding-left:15px; font-size:24px;"> ÊúçÂä°ËåÉÂõ¥ </h1>
+                            </div>
+                     <div class="services">
+                         <div class="col-lg-6 col-sm-6">
+                             <div class="icon-wrap ico-bg_01 round">
+                                 <i></i>
+                             </div>
+                             <div class="content">
+                                 <h3 class="title">ÊäÄÊúØÊîØÊåÅ</h3>
+                                 <p>È´òÁÑ∂ &nbsp;gr@gaosubo.com</p>
+                             </div>
+                         </div>
+                         <div class="col-lg-6 col-sm-6">
+                             <div class="icon-wrap ico-bg_02 round">
+                                 <i class="icon-2"></i>
+                             </div>
+                             <div class="content">
+                                 <h3 class="title">‰∫ßÂìÅË¥≠‰π∞ </h3>
+                                 <p>Âº†Êòé&nbsp;zhangming@gaosubo.com</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="services">
+                         <div class="col-lg-6 col-sm-6">
+                             <div class="icon-wrap ico-bg_03 round">
+                                 <i class="icon-3"></i>
+                             </div>
+                             <div class="content">
+                                 <h3 class="title">IOSËß£ÂÜ≥ÊñπÊ°à</h3>
+                                 <p>ÈÉéÂç†Âº∫ &nbsp;lzq@gaosubo.com</p>
+                             </div>
+                         </div>
+                         <div class="col-lg-6 col-sm-6">
+                             <div class="icon-wrap ico-bg_04 round">
+                                 <i class="icon-4"></i>
+                             </div>
+                             <div class="content">
+                                 <h3 class="title">ÂÆâÂçìËß£ÂÜ≥ÊñπÊ°à</h3>
+                                 <p>È©¨Â§©Ë°å &nbsp;mth@gaosubo.com</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="services">
+                         <div class="col-lg-6 col-sm-6">
+                             <div class="icon-wrap ico-bg_05 round">
+                                 <i class=" icon-5"></i>
+                             </div>
+                             <div class="content">
+                                 <h3 class="title">Âπ≥Âè∞Ëß£ÂÜ≥ÊñπÊ°à</h3>
+                                 <p>ÂàòÂª∫ÂΩ© &nbsp;ljc@gaosubo.com</p>
+                             </div>
+                         </div>
+                         <div class="col-lg-6 col-sm-6">
+                             <div class="icon-wrap ico-bg_06 round">
+                                 <i class=" icon-6"></i>
+                             </div>
+                             <div class="content">
+                                 <h3 class="title">ÊäïËØâ‰∏éÂª∫ËÆÆ</h3>
+                                 <p>Âº†Êòé &nbsp;zhangming@gaosubo.com</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+      </div>
 
-    <!--container end-->
-<?php
-include_once("../inc/footer.php");
-?>  
+
+     <!--container end-->
+ <?php
+ include_once("../inc/footer.php");
+ ?>
